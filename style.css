@@ -1,0 +1,56 @@
+/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Estilo para o cabeçalho (h1) */
+  h1 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  /* Estilo para o rótulo do campo de entrada */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para o campo de entrada de CEP */
+  #cepInput {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para o contêiner de resultados */
+  #resultContainer {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para mensagens de erro */
+  .error {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
